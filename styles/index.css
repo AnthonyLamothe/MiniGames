@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.board-mancala {
+    width: var(--board-width-mancala);
+    height: var(--board-height-mancala);
+    position: relative;
+    min-width: 50rem;
+    background: #ecd9c6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.title-mancala {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: var(--board-width-mancala);
+    text-align: center;
+    font-size: 3rem;
+}
+
+.mancala-hole {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background: #d9b38c;
+    border: 1px solid black;
+}
+
+.mancala-players {
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    gap: 2rem;
+}
+
+.mancala-player-side {
+    display: flex;
+    gap: 2rem;
+}
+
+.mancala-goal {
+    width: 5rem;
+    height: 15rem;
+    border-radius: 5rem;
+    background: #d9b38c;
+    border: 1px solid black;
+}

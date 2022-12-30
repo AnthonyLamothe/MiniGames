@@ -1,0 +1,27 @@
+* {
+    --board-width-mancala: 950px;
+    --board-height-mancala: 350px;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.board-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.board {
+    border: 1px solid black;
+    border-radius: 0.5rem;
+}
+
+.title {
+    width: 75%;
+}
